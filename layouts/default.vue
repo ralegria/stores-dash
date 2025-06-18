@@ -19,7 +19,8 @@
 <script setup>
 import { useRoute } from "vue-router";
 const route = useRoute();
-const isAuthPage = route.path === "/" || route.path === "/sign-up";
+const isAuthPage =
+  route.path === "/" || route.path === "/sign-in" || route.path === "/sign-up";
 </script>
 
 <style></style>

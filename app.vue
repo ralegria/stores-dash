@@ -10,15 +10,6 @@
 
 <style scoped></style>
 
-<script>
-import { defineComponent } from "vue";
+<script setup>
 import { darkTheme } from "naive-ui";
-
-export default defineComponent({
-  setup() {
-    return {
-      darkTheme,
-    };
-  },
-});
 </script>

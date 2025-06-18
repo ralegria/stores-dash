@@ -10,11 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@vicons/ionicons5": "^0.13.0",
     "nuxt": "^3.17.4",
     "vue": "^3.5.14",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.10.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "naive-ui": "^2.42.0",
     "sass": "^1.89.0",
