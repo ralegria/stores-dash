@@ -13,21 +13,21 @@
         <n-form @submit.prevent="handleSubmit" :model="form" :rules="rules">
           <n-form-item label="First Name" path="first_name">
             <n-input
-              v-model:value="form.first_name"
+              v-model="form.first_name"
               placeholder="Enter your first name"
             />
           </n-form-item>
 
           <n-form-item label="Last Name" path="last_name">
             <n-input
-              v-model:value="form.last_name"
+              v-model="form.last_name"
               placeholder="Enter your last name"
             />
           </n-form-item>
 
           <n-form-item label="Email" path="email">
             <n-input
-              v-model:value="form.email"
+              v-model="form.email"
               placeholder="Enter your email"
             />
           </n-form-item>
@@ -35,7 +35,7 @@
           <n-form-item label="Password" path="password">
             <div class="password-input">
               <n-input
-                v-model:value="form.password"
+                v-model="form.password"
                 :type="showPassword ? 'text' : 'password'"
                 placeholder="Enter your password"
                 @update:value="checkPasswordStrength"
